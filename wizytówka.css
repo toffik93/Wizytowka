@@ -1,0 +1,78 @@
+
+/* GENERAL STYLES */
+
+body{
+background-color:skyblue;
+}
+
+/*PROFESSION STYLES */
+
+#profession{
+
+color:darkgoldenrod;
+font-size:200%;
+text-align:center;
+border: 2px solid darkgoldenrod;
+width: 100%;
+height: 100%;
+  font-family: 'Pattaya', sans-serif;
+}
+
+/*PROFILE-CARD STYLES */
+
+#profile-card{
+width: 40%;
+height: 100%;
+  text-align: center;
+float: left;
+
+ font-family: 'Courgette', cursive;
+  color:darkgoldenrod;
+}
+
+#profile-card ul{
+list-style-type: none;  
+}
+
+/* CONTENT STYLES */
+
+#content{
+width: 60%;
+  height: 100%;
+  text-align: center;
+  float: right;
+    font-family: 'Courgette', cursive;
+  color:darkgoldenrod;
+}
+
+
+#content ul{
+list-style-position: inside;
+}
+
+/* LINK STYLES */
+
+a:link{
+   color:darkgoldenrod;
+  text-decoration: none;
+}
+
+a:visited{
+   color:darkgoldenrod;
+}
+
+a:hover{
+  color: gold;
+  transition: color .15s ease-in-out;
+}
+
+/* MEDIA QUERY */
+
+@media(max-width:640px){
+  img{
+    height: 120px;
+    width: 120px;
+  }
+  
+}
+
